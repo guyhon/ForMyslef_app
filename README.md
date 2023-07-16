@@ -17,28 +17,31 @@ and also share them with other users.
 # Features
 ### User Authentication:
 
-* Users can register an account using their email and password.
+* Users can register an account using their username and password.
 * Existing users can log in to access their accounts.
 
 ### Adding a Chat:
 
 * Users have the ability to create and add a chat of their choice.
-* Users can also include an image within the chat.
+* Chats, along with their associated content, are saved in Firebase.
+* Each chat includes a list of texts and a list of users who have permission to participate in the chat.
 
 ### Adding Text to Chat:
 
-* Within the chat, users can enter and save text messages.
-* These text messages are stored in Firebase as a list of chat texts.
+* Within a chat, users can enter and save texts.
+* These texts are stored in Firebase as a part of the list texts associated with that specific chat.
 
 ### Adding Users to the Chat:
 
-* Users have the capability to add additional users to the chat.
-* These added users will be authorized to participate in the chat, read messages, and write their own texts.
+* Users have the option to add other users to a chat.
+* When a user is added, the list of users with permission to chat is updated in Firebase.
+* The added users gain the ability to read and write texts in the chat.
 
 ### Saving and Changing an Image:
 
-* Each chat includes an option to save an image in Firebase.
-* Users also have the ability to change the image associated with the chat if desired.
+* Each chat includes an option to save an image URL in Firebase.
+* Users can upload an URL of an image and associate it with the chat.
+* Users also have the option to change the image associated with the chat if desired.
 
   
   <img src=https://github.com/guyhon/ForMyslef_app/assets/74957640/b4526c95-9e88-4db2-958d-66e831dc4a60
