@@ -6,7 +6,7 @@ Well, here's an application that allows you to conveniently open multiple chats,
 and also share them with other users.
 
 
-# A video that introduces the appideo that introduces the app
+# Video that introduces the app
  https://www.youtube.com/watch?v=jsMyvY0R_xQ
   
 
