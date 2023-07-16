@@ -11,8 +11,8 @@ and also share them with other users.
   
 
 # Installation
-  To install the game and run it on Android Studio clone the app from the following link:/n
-  git clone: https://github.com/guyhon/ForMyslef_app.git
+  To install the game and run it on Android Studio clone the app from the following link:
+  https://github.com/guyhon/ForMyslef_app.git
 
 # Features
 ### User Authentication:
