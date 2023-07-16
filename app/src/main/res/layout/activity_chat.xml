@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightGray">
+
+        <LinearLayout
+            android:id="@+id/main_LST_mainBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/appColor">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_02"
+                android:layout_gravity="fill"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="59dp"
+                android:layout_height="54dp"
+                app:srcCompat="@drawable/logo_1"
+                />
+            <TextView
+                android:id="@+id/chat_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:text=""/>
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_user_to_chat_Button"
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginTop="35dp"
+            android:layout_alignParentEnd="true"
+            android:text="Add User"
+            android:background="@color/lightBlue_2"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_image_to_chat_Button"
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="35dp"
+            android:text=" Change Image "
+            android:layout_alignParentEnd="true"
+            android:background="@color/lightBlue_2"
+            />
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/main_LST_text"
+            android:layout_below="@id/main_LST_mainBar"
+            android:layout_above="@id/main_LST_addText"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            tools:listitem="@layout/text_item"
+            android:background="@drawable/circle_scatter_haikei"
+            />
+
+        <LinearLayout
+            android:id="@+id/main_LST_addText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            >
+
+                <EditText
+                    android:id="@+id/chat_editText"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:minLines="1"
+                    android:hint="Enter text here"
+                    />
+
+
+        <LinearLayout
+            android:id="@+id/main_LST_button"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/chat_BTN_addText"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="15dp"
+                android:clickable="true"
+                android:backgroundTint="@color/appColor"
+                app:icon="@drawable/send"
+                app:iconGravity="end"
+                />
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
