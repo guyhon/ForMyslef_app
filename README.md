@@ -20,7 +20,7 @@ Final project for a mobile programming course in Java and Android SDK.
 # Launch
   To start playing click on the application icon on your device. You will be taken to the Menu, where you should choose If you want to play fast or slow, And with the help   of the switch you can choose between playing with buttons or playing with sensors. In addition, you can also go directly to the score table.
   
-  <img src=https://github.com/guyhon/Spaceship_Game/assets/74957640/1b51d4c2-17a0-4c81-addb-e34c2f07f17f
+  <img src=[https://github.com/guyhon/Spaceship_Game/assets/74957640/1b51d4c2-17a0-4c81-addb-e34c2f07f17f](https://github.com/guyhon/ForMyslef_app/assets/74957640/342bac53-9abb-4914-832f-0d23242fefa5)
   width="250" height="370" border="10" />
   </a>
   ![cb8c5e0f-a3fe-4124-8121-2e86101eef4f](https://github.com/guyhon/ForMyslef_app/assets/74957640/342bac53-9abb-4914-832f-0d23242fefa5)
