@@ -14,8 +14,8 @@ and also share them with other users.
   To install the game and run it on Android Studio clone the game from the following link:
   git clone: https://github.com/guyhon/Spaceship_Game.git
 
-# Launch
-  To start playing click on the application icon on your device. You will be taken to the Menu, where you should choose If you want to play fast or slow, And with the help   of the switch you can choose between playing with buttons or playing with sensors. In addition, you can also go directly to the score table.
+# Features
+ *1.
   
   <img src=https://github.com/guyhon/ForMyslef_app/assets/74957640/b4526c95-9e88-4db2-958d-66e831dc4a60
   width="240" height="480" border="10" />
