@@ -21,7 +21,7 @@ Final project for a mobile programming course in Java and Android SDK.
   To start playing click on the application icon on your device. You will be taken to the Menu, where you should choose If you want to play fast or slow, And with the help   of the switch you can choose between playing with buttons or playing with sensors. In addition, you can also go directly to the score table.
   
   <img src=https://github.com/guyhon/ForMyslef_app/assets/74957640/342bac53-9abb-4914-832f-0d23242fefa5
-  width="220" height="440" border="10" />
+  width="240" height="480" border="10" />
   </a>
   ![cb8c5e0f-a3fe-4124-8121-2e86101eef4f](https://github.com/guyhon/ForMyslef_app/assets/74957640/342bac53-9abb-4914-832f-0d23242fefa5)
 
