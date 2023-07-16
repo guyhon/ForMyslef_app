@@ -1,13 +1,10 @@
 # ForMyslef_app
 Final project for a mobile programming course in Java and Android SDK.
 
-  Welcome to the thrilling world of Spaeship Game - an exhilarating adventure where you pilot a spaceship through a asteroid field and collecting coins to earn points. 
-  The longer you survive in space the more points you get, while each coin you collect adds you 10 points. However, be warned! Crashing into an asteroid will cost you a       life, and you only have 3 lives in each game.
-  
-  The game includes two speed mods: fast for experienced pilots and slow for those seeking to gain confidence. In any situation, you can choose whether to play using         buttons or the sensors of the device in your hand.
-  
-  Once you finish the game, you can check the scoreboard to view the top ten scores. Additionally, the score Table will display your location on the map, and each click on   a score will reveal the location of where that score was achieved. All of this adds an extra layer of interest to the game.
-  
+Are you tired of constantly opening WhatsApp chats to register reminders for yourself? 
+Well, here's an application that allows you to conveniently open multiple chats, save text and write reminders 
+and also share them with other users.
+
 
 # Video Of The Game
  https://www.youtube.com/shorts/a0jSQxZsnGQ
