@@ -61,7 +61,7 @@ and also share them with other users.
   * Programming language: The application was created using Java in Android Studio.
   * Firebase real time: A reliable cloud-based platform for real-time data storage and synchronization.
   * Libraries: The app uses the Glide library to display the chats and texts
-  * Platforms and devices: The game is suitable for Android devices.
+  * Platforms and devices: The app is suitable for Android devices.
 
 # Contributors
   Guy Honen guyh146@gmail.com
