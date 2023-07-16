@@ -1,6 +1,4 @@
-package com.example.formyself;
-
-import java.util.ArrayList;
+package com.example.formyself.Object;
 
 public class Chat {
     private String title = "";

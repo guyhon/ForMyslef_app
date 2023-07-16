@@ -1,10 +1,7 @@
-package com.example.formyself;
-
-import static androidx.core.content.ContextCompat.startActivity;
+package com.example.formyself.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,10 +10,13 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.formyself.Activitys.ChatActivity;
+import com.example.formyself.Utilities.ImageLoader;
+import com.example.formyself.Object.Chat;
+import com.example.formyself.Object.ChatList;
+import com.example.formyself.R;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textview.MaterialTextView;
-
-import java.util.List;
 
 public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ChatViewHolder> {
 

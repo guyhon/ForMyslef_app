@@ -16,7 +16,7 @@
         android:theme="@style/Theme.ForMyself"
         tools:targetApi="31">
         <activity
-            android:name=".LogInActivity"
+            android:name=".Activitys.LogInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,17 +25,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Activitys.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".ChatActivity"
+            android:name=".Activitys.ChatActivity"
             android:windowSoftInputMode="adjustPan"
-            android:exported="true"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".AddChatActivity"
-            android:windowSoftInputMode="adjustResize"
             android:exported="true"
             android:screenOrientation="portrait"/>
     </application>

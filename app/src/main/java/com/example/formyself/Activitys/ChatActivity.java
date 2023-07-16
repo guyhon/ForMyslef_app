@@ -1,8 +1,7 @@
-package com.example.formyself;
+package com.example.formyself.Activitys;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +14,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.formyself.Adapters.TextAdapter;
+import com.example.formyself.Object.Text;
+import com.example.formyself.Object.TextList;
+import com.example.formyself.R;
+import com.example.formyself.Utilities.SignalGenerator;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

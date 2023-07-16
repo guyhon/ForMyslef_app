@@ -1,4 +1,4 @@
-package com.example.formyself;
+package com.example.formyself.Object;
 
 import java.util.ArrayList;
 

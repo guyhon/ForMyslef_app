@@ -1,4 +1,4 @@
-package com.example.formyself;
+package com.example.formyself.Activitys;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,13 +9,20 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.formyself.Adapters.ChatAdapter;
+import com.example.formyself.Utilities.ImageLoader;
+import com.example.formyself.Object.Chat;
+import com.example.formyself.Object.ChatList;
+import com.example.formyself.Object.Text;
+import com.example.formyself.Object.TextList;
+import com.example.formyself.R;
+import com.example.formyself.Utilities.SignalGenerator;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

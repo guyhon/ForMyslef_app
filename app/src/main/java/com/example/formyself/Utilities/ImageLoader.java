@@ -1,9 +1,10 @@
-package com.example.formyself;
+package com.example.formyself.Utilities;
 
 import android.content.Context;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.example.formyself.R;
 
 public class ImageLoader {
 

@@ -1,4 +1,4 @@
-package com.example.formyself;
+package com.example.formyself.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,9 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.imageview.ShapeableImageView;
+import com.example.formyself.Object.Text;
+import com.example.formyself.Object.TextList;
+import com.example.formyself.R;
 import com.google.android.material.textview.MaterialTextView;
 
 public class TextAdapter extends RecyclerView.Adapter<TextAdapter.TextViewHolder>{

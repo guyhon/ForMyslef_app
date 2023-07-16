@@ -1,4 +1,4 @@
-package com.example.formyself;
+package com.example.formyself.Object;
 
 public class Text {
 
