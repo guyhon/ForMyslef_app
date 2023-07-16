@@ -40,7 +40,7 @@ and also share them with other users.
 ### Saving and Changing an Image:
 
 * Each chat includes an option to save an image URL in Firebase.
-* Users can upload an URL of an image and associate it with the chat.
+* Users can upload a URL of an image and associate it with the chat to display the image next to the chat.
 * Users also have the option to change the image associated with the chat if desired.
 
   
