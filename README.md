@@ -12,7 +12,7 @@ and also share them with other users.
 
 # Installation
   To install the game and run it on Android Studio clone the game from the following link:
-  git clone: https://github.com/guyhon/Spaceship_Game.git
+  git clone: https://github.com/guyhon/ForMyslef_app.git
 
 # Features
 ### User Authentication:
