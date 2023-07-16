@@ -7,7 +7,7 @@ and also share them with other users.
 
 
 # Video Of The Game
- https://www.youtube.com/shorts/a0jSQxZsnGQ
+ https://www.youtube.com/watch?v=jsMyvY0R_xQ
   
 
 # Installation
